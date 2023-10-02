@@ -25,7 +25,7 @@ body {
 .header {
   color: #fff;
   padding: 16px 42px 87px;
-  background: linear-gradient(0deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url(../img/header-bg.jpg) no-repeat center / cover;
+  background: linear-gradient(0deg, rgba(140, 140, 140, 0.6), rgba(100, 100, 100, 0.8)), url(../img/header-bg.jpg) no-repeat center / cover;
   border-radius: 0 0 20px 20px;
 }
 
@@ -72,4 +72,63 @@ body {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #fffefe
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  padding: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-style: 12px;
+  line-height: 15px;
+  gap: 10px;
+  max-width: 260px;
+  margin: auto;
+  margin-bottom: 7px;
+}
+
+.button.vk {
+  background-color: #4C75A3;
+}
+
+.button.tg {
+  background-color: #229ED9
+}
+
+.button.yt {
+  background-color: #FF0000;
+}
+
+.button.hh,
+.button.gh {
+  padding-left: 50px;
+  justify-content: left;
+}
+
+.button.hh {
+  background-color: #D6001C;
 }
