@@ -2,6 +2,6 @@
 
 Сайт-визитка для социальных сетей
 
-[демо](https://slesareva-gala.github.io/TapLink/)
+[Посмотреть демо](https://slesareva-gala.github.io/TapLink/)
 
 ### Автор: Слесарева Галина
